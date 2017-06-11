@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/tool"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/tool http://www.springframework.org/schema/tool/spring-tool.xsd">
+
+    <!--<bean id="shape" claspringring.core.o_autowiredannotation.Triangle">-->
+    <!--<property name="pointA" ref="pointA"/>-->
+    <!--<property name="pointB" ref="pointB"/>-->
+    <!--<property name="pointC" ref="pointC"/>-->
+    <!--</bean>-->
+
+    <bean id="center" class="me.sherafgan.spring.core.o_autowiredannotation.Point">
+        <!--<qualifier value="circleRelated"/>-->
+        <property name="x" value="0"/>
+        <property name="y" value="0"/>
+    </bean>
+
+    <bean id="pointB" class="me.sherafgan.spring.core.o_autowiredannotation.Point">
+        <property name="x" value="-20"/>
+        <property name="y" value="0"/>
+    </bean>
+
+    <bean id="pointC" class="me.sherafgan.spring.core.o_autowiredannotation.Point">
+        <property name="x" value="20"/>
+        <property name="y" value="0"/>
+    </bean>
+
+    <bean id="circle" class="me.sherafgan.spring.core.o_autowiredannotation.Circle">
+        <!--<property name="center" ref="pointA"/>-->
+    </bean>
+
+    <!--<bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor"/>-->
+
+    <!--shortcut shown below-->
+    <bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"/>
+    <!--<context:annotation-config/>-->
+</beans>
