@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="AspectJ">
+    <CLASSES>
+      <root url="jar:///usr/share/java/aspectjweaver.jar!/" />
+      <root url="jar:///usr/share/java/aspectjrt.jar!/" />
+      <root url="jar:///usr/share/java/aopalliance.jar!/" />
+      <root url="jar:///usr/share/java/cglib3.jar!/" />
+      <root url="jar:///usr/share/java/asm4-5.0.4.jar!/" />
+      <root url="jar:///usr/share/java/aspectjrt-1.8.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
