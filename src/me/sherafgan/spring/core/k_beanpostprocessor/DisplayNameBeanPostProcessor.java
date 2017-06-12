@@ -5,7 +5,6 @@ import org.springframework.beans.factory.config.BeanPostProcessor;
 
 /**
  * @author Sherafgan Kandov (sherafgan.kandov@gmail.com)
- * @version 6/11/17
  */
 public class DisplayNameBeanPostProcessor implements BeanPostProcessor {
     @Override

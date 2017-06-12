@@ -26,6 +26,6 @@
 
     <!--<bean claspringring.core.l_factorybeanpp.MyBeanFactoryPP"/>-->
     <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
-        <property name="locations" value="../..//core/l_factorybeanpp/pointsconfig.properties"/>
+        <property name="locations" value="me/sherafgan/spring/core/l_factorybeanpp/pointsconfig.properties"/>
     </bean>
 </beans>

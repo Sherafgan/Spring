@@ -6,7 +6,6 @@ import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
 
 /**
  * @author Sherafgan Kandov (sherafgan.kandov@gmail.com)
- * @version 6/11/17
  */
 public class MyBeanFactoryPP implements BeanFactoryPostProcessor {
     @Override

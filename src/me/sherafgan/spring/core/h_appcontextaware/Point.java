@@ -2,7 +2,6 @@ package me.sherafgan.spring.core.h_appcontextaware;
 
 /**
  * @author Sherafgan Kandov (sherafgan.kandov@gmail.com)
- * @version 6/11/17
  */
 public class Point {
     private int x;

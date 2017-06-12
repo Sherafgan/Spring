@@ -2,7 +2,6 @@ package me.sherafgan.spring.core.n_requiredannotation;
 
 /**
  * @author Sherafgan Kandov (sherafgan.kandov@gmail.com)
- * @version 6/10/17
  */
 public class Triangle implements Shape {
     private Point pointA;

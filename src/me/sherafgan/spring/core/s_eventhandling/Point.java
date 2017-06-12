@@ -1,4 +1,4 @@
-package me.sherafgan.spring.core.j_lifecyclecallbacks;
+package me.sherafgan.spring.core.s_eventhandling;
 
 /**
  * @author Sherafgan Kandov (sherafgan.kandov@gmail.com)

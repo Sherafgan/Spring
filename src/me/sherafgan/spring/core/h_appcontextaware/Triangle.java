@@ -7,7 +7,6 @@ import org.springframework.context.ApplicationContextAware;
 
 /**
  * @author Sherafgan Kandov (sherafgan.kandov@gmail.com)
- * @version 6/10/17
  */
 public class Triangle implements ApplicationContextAware, BeanNameAware {
     private Point pointA;

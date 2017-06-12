@@ -2,7 +2,6 @@ package me.sherafgan.spring.core.q_componentandstereotype;
 
 /**
  * @author Sherafgan Kandov (sherafgan.kandov@gmail.com)
- * @version 6/10/17
  */
 public class Triangle implements Shape {
     private Point pointA;
