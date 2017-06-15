@@ -1,17 +1,17 @@
-package me.sherafgan.spring.aop.a_firstaspect.service;
+package me.sherafgan.spring.aop.xmlaspect.service;
 
-import me.sherafgan.spring.aop.a_firstaspect.model.Circle;
-import me.sherafgan.spring.aop.a_firstaspect.model.Triangle;
+import me.sherafgan.spring.aop.xmlaspect.model.Circle;
+import me.sherafgan.spring.aop.xmlaspect.model.Triangle;
 
 /**
  * @author Sherafgan Kandov (sherafgan.kandov@gmail.com)
- * @version 6/12/17
  */
 public class ShapeService {
     private Circle circle;
     private Triangle triangle;
 
     public Circle getCircle() {
+        System.out.println("Circle getter called");
         return circle;
     }
 

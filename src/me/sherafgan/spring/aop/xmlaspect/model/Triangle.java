@@ -1,10 +1,9 @@
-package me.sherafgan.spring.aop.a_firstaspect.model;
+package me.sherafgan.spring.aop.xmlaspect.model;
 
 /**
  * @author Sherafgan Kandov (sherafgan.kandov@gmail.com)
- * @version 6/12/17
  */
-public class Circle {
+public class Triangle {
     private String name;
 
     public String getName() {

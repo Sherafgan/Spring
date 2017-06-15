@@ -14,16 +14,16 @@
 
     <aop:aspectj-autoproxy/>
 
-    <bean name="triangle" class="me.sherafgan.spring.aop.a_firstaspect.model.Triangle">
+    <bean name="triangle" class="me.sherafgan.spring.aop.firstaspect.model.Triangle">
         <property name="name" value="Triangle name"/>
     </bean>
 
-    <bean name="circle" class="me.sherafgan.spring.aop.a_firstaspect.model.Circle">
-        <property name="name" value="Circle name"/>
+    <bean name="circle" class="me.sherafgan.spring.aop.firstaspect.model.Circle">
+        <!--<property name="name" value="Circle name"/>-->
     </bean>
 
-    <bean name="shapeService" class="me.sherafgan.spring.aop.a_firstaspect.service.ShapeService" autowire="byName"/>
+    <bean name="shapeService" class="me.sherafgan.spring.aop.firstaspect.service.ShapeService" autowire="byName"/>
 
-    <bean name="LoggingAspect" class="me.sherafgan.spring.aop.a_firstaspect.aspect.LoggingAspect"/>
+    <bean name="LoggingAspect" class="me.sherafgan.spring.aop.firstaspect.aspect.LoggingAspect"/>
 
 </beans>

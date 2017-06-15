@@ -1,8 +1,7 @@
-package me.sherafgan.spring.aop.a_firstaspect.model;
+package me.sherafgan.spring.aop.firstaspect.model;
 
 /**
  * @author Sherafgan Kandov (sherafgan.kandov@gmail.com)
- * @version 6/12/17
  */
 public class Triangle {
     private String name;
